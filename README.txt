@@ -17,7 +17,7 @@ Estimate of time needed to complete: 1 hour
 
 Start time: 1325
 
-Finish time: 
+Finish time: 1800 (I tried to get some razzle dazzle in there)
 
 Actual time needed to complete:
 ```
