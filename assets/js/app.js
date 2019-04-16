@@ -1,3 +1,12 @@
-let githubData = $.get('https://api.github.com/users/leeroywking/repos', 'json');
-console.log(githubData.responseJSON);
+
+
+githubDataPull = () => {
+    return $.get('https://api.github.com/users/leeroywking/repos', 'json')
+  };
+
+githubDataParse = () => {
+    return console.log(githubDataPull().responseJSON)
+}
+
+githubDataParse();
 
