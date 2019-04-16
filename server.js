@@ -10,6 +10,8 @@ const PORT = process.env.PORT;
 
 app.use(express.static('./public'));
 
+app.get('/', (request, response) => response.status(200).send('index.html'));
+
 app.get('/hello', (request, response) => {
     response.status(200).send('<h1>Hello</h1>')
 });
@@ -20,9 +22,10 @@ app.get('/data', (request, response) => {
         canFly: true, 
         pilot: 'Drunk'
     }
+
     response.status(200).json(airplane);
 });
 
-app.use('*', (request, response) =>  response.send('Sorry that rouse does not exist dummy'));
+app.use('*', (request, response) =>  response.send('Sorry that route does not exist dummy'));
 
 app.listen(PORT, () => console.log(`My ?fiftieth? Server is listening on port ${PORT}`));
