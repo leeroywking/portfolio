@@ -20,9 +20,6 @@ const nextBackground = BGindex => {
     'url(../../images/banner.jpg)'
   ]
   $('#main > section.one').css('background-image', backgrounds[BGindex]);
-  setTimeout(nextBackground(1), 100000)
 }
 
-nextBackground(0);
-nextBackground(1);
-
+nextBackground();
