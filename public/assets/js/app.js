@@ -10,3 +10,6 @@ githubDataParse = () => {
 
 githubDataParse();
 
+// $('#main > section.one')
+// .css('background-image','url(../../images/banner.jpg)')
+// .fadeOut(10000)

@@ -165,7 +165,7 @@ table {
 
 /* Wide */
 
-@media screen and (min-width: 961px) and (max-width: 1880px) {
+@media screen and (min-width: 735px) and (max-width: 1880px) {
 
     /* Basic */
 
@@ -282,7 +282,7 @@ table {
     display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 734px) {
 
     /* Basic */
 
