@@ -148,7 +148,10 @@ table {
 
         #main > section.one {
             background-color: #81918E;
-            background-image: url("../../images/pano.jpg");
+            /* background-image: url("../../images/pano.jpg"); */
+            background-image: url("https://www.youtube.com/embed/Zsqep7_9_mw");
+            -o-transition: 3s;
+            transition: 3s;
         }
 
         #main > section.two {
@@ -165,7 +168,7 @@ table {
 
 /* Wide */
 
-@media screen and (min-width: 961px) and (max-width: 1880px) {
+@media screen and (min-width: 735px) and (max-width: 1880px) {
 
     /* Basic */
 
@@ -282,7 +285,7 @@ table {
     display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 734px) {
 
     /* Basic */
 
@@ -521,5 +524,7 @@ table {
             #footer .copyright li:first-child {
                 margin-top: 0;
             }
+}
 
+iframe {
 }
